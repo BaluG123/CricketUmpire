@@ -26,7 +26,7 @@ import {
   adaptNavigationTheme,
 } from 'react-native-paper';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import Navigation from './navigation';
+import Navigation from './src/navigator/Navigation';
 import {useColorScheme} from 'react-native';
 
 export default function App() {

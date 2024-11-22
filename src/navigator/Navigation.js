@@ -57,13 +57,13 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {IconButton} from 'react-native-paper';
 
 // Import screens
-import HomeScreen from './screens/HomeScreen';
-import MatchSetupScreen from './screens/MatchSetupScreen';
-import ScoringScreen from './screens/ScoringScreen';
-import SignalsScreen from './screens/SignalsScreen';
-import SettingsScreen from './screens/SettingsScreen';
-import MatchHistoryScreen from './screens/MatchHistoryScreen';
-import MatchStatsScreen from './screens/MatchStatsScreen';
+import HomeScreen from '../screens/HomeScreen';
+import MatchSetupScreen from '../screens/MatchSetupScreen';
+import ScoringScreen from '../screens/ScoringScreen';
+import SignalsScreen from '../screens/SignalsScreen';
+import SettingsScreen from '../screens/SettingsScreen';
+import MatchHistoryScreen from '../screens/MatchHistoryScreen';
+import MatchStatsScreen from '../screens/MatchStatsScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
